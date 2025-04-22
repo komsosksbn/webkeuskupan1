@@ -1,0 +1,321 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f9f9f9;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    background: #1c2541;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header img {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .about img {
+    width: 200px;
+    float: right;
+    margin: 0 0 10px 20px;
+    border-radius: 10px;
+  }
+  
+  .paroki-gallery {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .paroki-gallery img {
+    width: 30%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .finance img,
+  .news img {
+    max-width: 200px;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .news img {
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  footer {
+    background: #1c2541;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .jadwal-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .jadwal-table th,
+  .jadwal-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .jadwal-table th {
+    background-color: #1c2541;
+    color: white;
+  }
+  
+  .jadwal-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  nav ul li a.active {
+    color: yellow;
+    text-decoration: underline;
+  }
+  
+  .profile-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 280px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    margin: 15px 0 5px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .about-section {
+    margin-top: 20px;
+    line-height: 1.7;
+  }
+  
+  .about-section h3 {
+    margin-top: 25px;
+    color: #1c2541;
+  }
+  
+  .about-section ul {
+    padding-left: 20px;
+    list-style: disc;
+  }
+  
+  .paroki-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    width: 280px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .keuangan-table {
+    margin-top: 30px;
+  }
+  
+  .keuangan-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .keuangan-table th,
+  .keuangan-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .keuangan-table th {
+    background-color: #1c2541;
+    color: white;
+  }
+  
+  .keuangan-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .donasi-info {
+    margin-top: 40px;
+    background: #eef;
+    padding: 20px;
+    border-left: 5px solid #1c2541;
+    border-radius: 8px;
+  }
+
+  .qris-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .qris-img {
+    width: 250px;
+    height: auto;
+    border: 2px solid #1c2541;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+  }
+  
+  .berita-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .berita-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fefefe;
+    padding: 20px;
+    border-left: 5px solid #1c2541;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  .berita-item img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .berita-item h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #1c2541;
+  }
+  
+  .kontak-pejabat {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .pejabat-item {
+    background-color: #f9f9f9;
+    padding: 20px 25px;
+    border-left: 5px solid #1c2541;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+  }
+  
+  .pejabat-item:hover {
+    background-color: #eef2f7;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .pejabat-item h3 {
+    margin-bottom: 5px;
+    color: #1c2541;
+    font-size: 20px;
+  }
+  
+  .pejabat-item p {
+    margin: 4px 0;
+    font-size: 15px;
+    color: #333;
+  }
+  
+  .pejabat-item strong {
+    color: #3a506b;
+  }
